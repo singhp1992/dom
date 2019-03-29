@@ -85,11 +85,14 @@ li button {
 .list {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 60%;
-    justify-content: center;
+    margin: auto;
+    text-align: center;
 }
 
 div button {
     margin: .5em;
     width: 15%;
+    justify-content: center;
 }
